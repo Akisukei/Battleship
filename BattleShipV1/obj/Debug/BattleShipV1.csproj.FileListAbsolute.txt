@@ -1,0 +1,1 @@
+C:\SDII_labs\BattleShip\BattleShipV12\BattleShipV1\BattleShipV1\bin\Debug\BattleShipV1.exe.config

@@ -1,0 +1,9 @@
+﻿<Window x:Class="BattleShipV1.popUpMessage" x:Name="popMsg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="popUpMessage" Height="50" Width="350" WindowStartupLocation="CenterOwner" WindowStyle="None" ResizeMode="NoResize" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Icon="Resources/myicon.ico">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label x:Name="lblPopUpMessage" Content="Label" Margin="0,0,0,0" VerticalAlignment="Center" Foreground="Red" FontWeight="ExtraBlack" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>

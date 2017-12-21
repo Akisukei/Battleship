@@ -1,0 +1,22 @@
+﻿<Window x:Class="BattleShipV1.howToPlay" x:Name="howToPlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="pictureLegend" Height="480" Width="782" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Icon="Resources/myicon.ico">
+    <Grid x:Name="howto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="403*"/>
+            <RowDefinition Height="47*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/howtoplay/001.png"/>
+        </Grid.Background>
+        <Button x:Name="btnPrevious" Grid.Row="1" Grid.Column="1" Content="Prev" HorizontalAlignment="Left" VerticalAlignment="Top" Width="54" Click="btn_Click" Height="37" />
+        <Button x:Name="btnNext" Grid.Row="1" Grid.Column="2" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="54" Click="btn_Click" Height="37" />
+    </Grid>
+</Window>
